@@ -238,5 +238,5 @@ resource "aws_codebuild_project" "default" {
     report_build_status = var.report_build_status
   }
 
-  tags = module.label.tags
+  # tags = module.label.tags
 }
